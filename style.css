@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.heading h1{
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    color: #000000;
+
+}
+.intro-item{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+h2{
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+    text-transform: uppercase;
+    
+}
+
+h5{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+footer p{
+    color: #A9A9A9;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600px;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 27px;
+
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    margin-top: 17px;
+    margin-left: 12px;
+    margin-bottom: 38px;
+}
+.intro{
+    margin-left: 12px;
+}
+.intro h5{
+    margin-bottom: 10px;
+}
+.gallery{
+    margin-top: 20px;
+    display: flex;
+    
+    
+}
+.gallery-1{
+    margin-left: 19px;
+    margin-top: 20px;
+    margin-right: 40px;
+    
+}
+.gallery-2{
+    margin-top: 100px;
+    margin-right: 18px;
+}
+.first-name{
+    margin-bottom: 92px;
+}
+.second-name{
+    margin-bottom: 92px;
+}
+.third-name{
+    margin-bottom: 131px;
+}
+.flip{
+   
+    
+    
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+    
+}
+
+@media only screen and (min-width: 992px){
+    .container{
+        display: flex;
+    }
+    .header{
+        display: flex;
+        
+    }
+    .navbar{
+        margin-top:109px ;
+        margin-left: 243px;
+    }
+    .intro{
+        margin-left: 215px;
+        margin-top: 109px;
+    }
+   
+    
+    .gallery-col-1{
+        margin-left: 200px;
+    }
+}
